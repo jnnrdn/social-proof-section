@@ -1,0 +1,23 @@
+{
+  "name": "pod-request-access-landing-page-project",
+  "version": "1.0.0",
+  "description": "This is the repository for my solution to the 'Pod Request Access Landing Page' challenge on frontendmentor.io",
+  "author": "Jenny Ryden",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "gulp build"
+  }
+}
