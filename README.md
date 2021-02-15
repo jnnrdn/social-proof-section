@@ -1,6 +1,4 @@
-This is my take on this Frontend Mentor challenge.
-
-Read brief below for more info :)
+Hi! My name is Jenny Ryden, and this is my take on this Frontend Mentor challenge. Read the brief below for more info.
 
 ---
 
