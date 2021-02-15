@@ -1,11 +1,9 @@
-Hi,
-
-My name is Jenny Ryden, and this is my take on this Frontend Mentor challenge.
+This is my take on this Frontend Mentor challenge.
 
 Read brief below for more info :)
 
 ---
-s
+
 # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
