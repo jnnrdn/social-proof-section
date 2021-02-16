@@ -1,0 +1,33 @@
+.card {
+    margin-bottom: 1.6rem;
+    padding: 4rem 3.2rem;
+    border-radius: $border-radius;
+    color: $clr-neutral-100;
+    background-color: $clr-primary;
+    text-align: left;
+    font-size: 1.3rem;
+
+    &__header {
+        margin-bottom: 3rem;
+    }
+
+    &__title,
+    &__subtitle {
+        font-size: inherit;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+
+    &__subtitle {
+        color: $clr-accent;
+        font-weight: normal;
+    }
+
+    &__text {
+        color: $clr-neutral-100;
+        letter-spacing: -0.23px;
+        line-height: 2.2rem;
+    }
+}
