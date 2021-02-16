@@ -1,0 +1,13 @@
+.reviews {
+
+    margin-bottom: 5rem;
+
+    &__single {
+        border-radius: $border-radius;
+        background-color: $clr-neutral-200;
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 1.6rem 0;
+        margin: 1.6rem auto;
+    }
+}
