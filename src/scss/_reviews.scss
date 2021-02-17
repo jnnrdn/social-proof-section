@@ -2,12 +2,32 @@
 
     margin-bottom: 5rem;
 
+    p {
+        color: $clr-primary;
+        line-height: 1;
+    }
+
     &__single {
         border-radius: $border-radius;
         background-color: $clr-neutral-200;
         font-size: 1.3rem;
         font-weight: 700;
-        padding: 1.6rem 0;
+        padding: 1.7rem 0;
         margin: 1.6rem auto;
+    }
+
+    &__stars {
+        display: flex;
+        width: 11.7rem;
+        margin: 0 auto 1.5rem;
+        justify-content: space-between;
+    }
+
+    &__star {
+        display: block;
+        width: 17px;
+        height: 16px;
+        background-image: url(../assets/icon-star.svg);
+        background-repeat: no-repeat;
     }
 }
