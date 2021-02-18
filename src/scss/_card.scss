@@ -38,4 +38,22 @@
         letter-spacing: -0.23px;
         line-height: 2.2rem;
     }
+
+    @media screen and (min-width: 80em) {
+
+        width: 35rem;
+        height: 23.4rem;
+
+        & + * {
+            margin-left: 3rem;
+        }
+
+        &:nth-child(2) {
+            margin-top: 2rem;
+        }
+
+        &:nth-child(3) {
+            margin-top: 4rem;
+        }
+    }
 }
