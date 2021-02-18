@@ -14,6 +14,22 @@
         font-weight: 700;
         padding: 1.7rem 0;
         margin: 1.6rem auto;
+
+        @media screen and (min-width: 80em) {
+            width: 44.5rem;
+            display: flex;
+            align-items: center;
+            padding: 2rem 4.4rem;
+            margin-left: 0;
+
+            &:nth-child(2) {
+                margin-left: 4.8rem;
+            }
+
+            &:nth-child(3) {
+                margin-left: calc(4.8*2rem);
+            }
+        }
     }
 
     &__stars {
@@ -21,6 +37,10 @@
         width: 11.7rem;
         margin: 0 auto 1.5rem;
         justify-content: space-between;
+
+        @media screen and (min-width: 80em) {
+            margin: 0 4.4rem 0 0;
+        }
     }
 
     &__star {
